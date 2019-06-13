@@ -1,20 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+/* comentário */
 import { AppRoutingModule } from './app-routing.module';
+
+/* comentário */
 import { LoginComponent } from './auth/login/login.component';
-import { NavbarComponent } from './dashboard/navbar/navbar.component';
-import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
-import { FooterComponent } from './dashboard/footer/footer.component';
-import { IndexComponent } from './dashboard/index/index.component';
+
+/* comentário */
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+
+/* comentário */
+import { UsuariosComponent } from './dashboard/seguranca/usuarios/usuarios.component';
+import { CategoriasComponent } from './dashboard/configuracao/categorias/categorias.component';
 
 @NgModule({
   declarations: [
       LoginComponent,
       NavbarComponent,
-      SidebarComponent,
-      FooterComponent,
-      IndexComponent
+      UsuariosComponent,
+      CategoriasComponent,
   ],
   imports: [
     BrowserModule,
